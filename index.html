@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD9APRIL</title>
+    <style>
+        body {
+            text-align: center;
+            background: black;
+            color: white;
+            font-size: 2em;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            margin-top: 20px;
+            cursor: pointer;
+            background: pink;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hai, i have gift for you</h1>
+    <button onclick="startCelebration()">Klik untuk Kue mu</button>
+
+    <script>
+        function startCelebration() {
+            localStorage.setItem("playMusic", "true");
+            window.location.href = "cake.html";
+        }
+    </script>
+</body>
+</html>
